@@ -124,6 +124,7 @@ button{
     width: 120px;
     border-radius: 10px;
     border: 3px solid #3882F6;
+    overflow: hidden;
 }
 
 #bottom-button{
@@ -174,10 +175,24 @@ h1{
     align-items: center;
     justify-content: flex-end;
     max-width: 1120px;
+    margin-right: 280px;
 }
 
 .middle-container2-1{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.content-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 13px;
+    gap: 6px;
+    max-width: 125px;
+    color: #545353;
 }
